@@ -15,6 +15,9 @@ The description of all feature can be read on https://www.sciencedirect.com/scie
 
 ## Business Problem
 
+* What bookings cancelation pattern can we get from dataset?
+
+* What if we could predict whether a booking reservation will be canceled or not?
 
 ### Workflow of Project:
 
@@ -52,10 +55,13 @@ c. __Model__
 
 ![Model Flow](https://github.com/trianzah01/Final_Project/blob/master/Model%20Flow.png)
 
+I use 2 data (Scaled and Not Scalle) for model building. After I found a good model, I use Hyperparameter Tuning with GridSearchCV for improving the good model to become best model.
 
 **Model Result**
 
 ![Model Result](https://github.com/trianzah01/Final_Project/blob/master/Model%20Result.png)
+
+Based on Model Result, `RandomForestClassifier` with non scalled data had a good evaluation metric score. On scalled data, the score is slightly higher than the non scalled one but the differences are non significant, therefore I use non scalled data as the final model and to ease users when using the dashboard then.
 
 d. __Model Evaluation__
 
@@ -66,7 +72,6 @@ The evaluation metrics that I use are:
 **Model Evaluation**
 
 ![Model Evaluation](https://github.com/trianzah01/Final_Project/blob/master/Model%20Evaluation.png)
-
 
 ## Dashboard
 
