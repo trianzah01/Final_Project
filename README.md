@@ -52,12 +52,40 @@ c. __Model__
 
 ![Model Flow](https://github.com/trianzah01/Final_Project/blob/master/Model%20Flow.png)
 
-d. __Model Evaluation__
 
-  
+**Model Result**
+
+![Model Result](https://github.com/trianzah01/Final_Project/blob/master/Model%20Result.png)
+
+d. __Model Evaluation__
 
 The evaluation metrics that I use are:
 1. Classification Report (Accuracy, Recall, Precision, and F1 Score)
 2. Confussion Matrix
 
-You can see my works on notebook named "FP - Final Version"
+**Model Evaluation**
+
+![Model Evaluation](https://github.com/trianzah01/Final_Project/blob/master/Model%20Evaluation.png)
+
+
+## Dashboard
+
+### Home
+
+![Home](https://github.com/trianzah01/Final_Project/blob/master/Home.png)
+
+### Dataset
+
+![Dataset](https://github.com/trianzah01/Final_Project/blob/master/Dataset.png)
+
+### Visualization
+
+![Visualization](https://github.com/trianzah01/Final_Project/blob/master/Visualization.png)
+
+### Predict
+
+![Predict](https://github.com/trianzah01/Final_Project/blob/master/Predict.png)
+
+### Result
+
+![Result](https://github.com/trianzah01/Final_Project/blob/master/Result.png)
