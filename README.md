@@ -16,19 +16,45 @@ The description of all feature can be read on https://www.sciencedirect.com/scie
 ## Business Problem
 
 
-## Workflow of Project:
+### Workflow of Project:
 
 ![Workflow](https://github.com/trianzah01/Final_Project/blob/master/Workflow.png)
 
 
-### 1. Data Cleaning
-### 2. Exploratory Data Analysis
-### 3. Model Building and Model Evaluation 
+## Data Cleaning
+a. Checking and Handling Missing Values
 
-This project use 3 model:
-1. Logistic Regression
-2. Decision Tree Classifier
-3. Random Forest Classifier
+b. Checking and Handling Wrong Values
+
+c. Find Outliers
+
+## Exploratory Data Analysis
+a. Bookings Trend
+
+b. Repeated Guest on Cancelation
+
+c. Lead Time and Deposit Type on Cancelation
+
+d. Customer Type on Cancelation
+
+## Model Building 
+
+a. __Feature Selection__ : Correlation Matrix, SelectKBest (Chi2 on Categorical Feature, ANOVA on Numerical Feature)
+
+b. __Scalling Data__ : Scalling data on numerical feature that has outliers using RobustScaller
+
+c. __Model__
+  * `Logistic Regression`
+  * `Decision Tree Classifier`
+  * `Random Forest Calssifier`
+
+**Model Flow**
+
+![Model Flow](https://github.com/trianzah01/Final_Project/blob/master/Model%20Flow.png)
+
+d. __Model Evaluation__
+
+  
 
 The evaluation metrics that I use are:
 1. Classification Report (Accuracy, Recall, Precision, and F1 Score)
