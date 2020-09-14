@@ -18,7 +18,7 @@ The description of all feature can be read on https://www.sciencedirect.com/scie
 
 ## Workflow of Project:
 
-![Workflow](D:\Gilang\Data Science\Final Project\Readme\Workflow.png)
+![Workflow](https://github.com/trianzah01/Final_Project/blob/master/Workflow.png)
 
 
 ### 1. Data Cleaning
