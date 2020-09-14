@@ -13,7 +13,13 @@ length of stay, the number of adults, children, and/or babies, and the number of
 
 The description of all feature can be read on https://www.sciencedirect.com/science/article/pii/S2352340918315191
 
+## Business Problem
+
+
 ## Workflow of Project:
+
+![Workflow](D:\Gilang\Data Science\Final Project\Readme\Workflow.png)
+
 
 ### 1. Data Cleaning
 ### 2. Exploratory Data Analysis
